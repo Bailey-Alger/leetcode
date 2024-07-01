@@ -7,7 +7,7 @@ var permute = function(nums) {
     const ans = [nums];
 
     function swapper(arr, pos1, pos2) {
-        arr2 = [...arr];
+        let arr2 = [...arr];
         let curNum = arr2[pos1];
         arr2[pos1] = arr2[pos2];
         arr2[pos2] = curNum;

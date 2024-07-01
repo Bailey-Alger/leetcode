@@ -4,7 +4,7 @@
  * @return {number[][]}
  */
 var permute = function(nums) {
-    const ans = [nums];
+    let ans = [nums];
 
     function swapper(arr, pos1, pos2) {
         let arr2 = [...arr];
